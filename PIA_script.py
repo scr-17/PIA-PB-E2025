@@ -12,7 +12,7 @@ fecha_inicio = "2000-01-01"
 fecha_fin = "2024-12-31"
 #Designamos los parametros que irán en la solicitud a la API
 
-ruta_llave = input("Ingrese la ruta de la llave")
+ruta_llave = input("Ingrese la ruta de la llave:\n")
 #Solicitamos la ruta a la llave para el uso del API
 
 key = str(leer_llave(ruta_llave))
